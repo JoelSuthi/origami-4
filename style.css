@@ -1,0 +1,90 @@
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: thistle;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color:blueviolet;
+}
+body{
+    background-color:#fff5ec;
+    
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+
+}
+.grid img{
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.item {
+    justify-content: space-evenly;
+    border-radius: 30px;
+    background-color:thistle;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    height: 100vh;
+    font-family: cursive;
+    font-size: 16px;
+    color:black;    
+}
+.item:hover{
+    transform:scale(1.10);
+}
+.header{
+    justify-content: stretch;
+    background-image: url("main3.jpg");
+}
+h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:teal;
+    font-family:cursive;
+    border-radius: 50vh;
+ }
+ h2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:tomato;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+
+ }
+
+ a:link{
+     color: crimson;
+ }
+ a:visited{
+     color:crimson;
+ }
+ h4{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    font-family:algerian;
+    font-size: 40px;
+    
+ }
+
+ h3{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  
+ }
+ .fullpage{
+    background-image: url("https://www.wallpapertip.com/wmimgs/3-36303_multi-color-backgrounds-hd.jpg");
+}
